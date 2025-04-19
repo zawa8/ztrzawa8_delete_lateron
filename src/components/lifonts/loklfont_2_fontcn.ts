@@ -4,7 +4,7 @@ import {
 	gurmukhienglosoftw8asc, hindienglosoftw8asc, koreanenglosoftw8asc, oriyaenglosoftw8asc, tamilenglosoftw8asc,
 } from "./localfonts";
 
-export const loklfont_2_fontcn = (sval: stringlish): stringlish => {
+export const loklfont_2_fontcn = (sval: string): string => {
     switch (sval) {
       case "binarywenglosoftw8asc": return binarywenglosoftw8asc.className;
       case "inglishenglosoftw8asc": return inglishenglosoftw8asc.className;
